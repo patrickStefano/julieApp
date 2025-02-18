@@ -1,6 +1,6 @@
 asgiref==3.7.2  # Downgraded to last compatible version for Django 3.2
 dj-database-url==2.3.0
-Django==3.2.25
+Django==3.2.19
 django-environ==0.12.0
 gunicorn==23.0.0
 packaging==24.2
