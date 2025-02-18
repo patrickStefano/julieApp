@@ -37,9 +37,9 @@ DATABASES = {
 SECRET_KEY = 'django-insecure-8n*zroza4@sy)rdyf5*e9e9z@q!!3!3rk@3k5@q9fd0+z0s@^r'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['julieapp.onrender.com']
 
 
 # Application definition
