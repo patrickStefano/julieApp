@@ -1,0 +1,181 @@
+{% load static %}
+
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>Julie Event</title>
+
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,400;0,600;0,700;1,200;1,700&display=swap" rel="stylesheet">
+        
+        <!-- CSS Files -->
+        <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
+        <link href="{% static 'css/bootstrap-icons.css' %}" rel="stylesheet">
+        <link href="{% static 'css/vegas.min.css' %}" rel="stylesheet">
+        <link href="{% static 'css/tooplate-barista.css' %}" rel="stylesheet">
+        
+        
+<!--
+
+Tooplate 2137 Barista Cafe
+
+https://www.tooplate.com/view/2137-barista-cafe
+
+Bootstrap 5 HTML CSS Template
+
+-->
+    </head>
+    
+    <body>
+                
+            <main>
+               
+
+               
+
+                 
+  <!-- Session appropriee pour mon project -->
+
+                <section class="about-section section-padding" id="section_2" style="background-color: rgb(0, 238, 255);">
+                    <div class="section-overlay"></div>
+                    <div class="container">
+                        <div class="row align-items-center">
+
+                            <div class="col-lg-6 col-12">
+                                <div class="ratio ratio-1x1">
+                                    <!-- <video autoplay="" loop="" muted="" class="custom-video" poster="">
+                                        <img src="event22.jpeg" alt="">
+                                        <source src="videos/pexels-mike-jones-9046237.mp4" type="video/mp4">
+
+                                       
+                                    </video> -->
+                                    <img src="{% static 'picctur/event22.jpeg' %}" alt="">
+                                    <!-- <img src="event22.jpeg" alt=""> -->
+
+                                    <div class="about-video-info d-flex flex-column">
+                                        <h4 class="mt-auto">Nous Avons Commence depuis 2014.</h4>
+
+                                        <h4>Le Meilleur Service dans l'Ouest.</h4>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-5 col-12 mt-4 mt-lg-0 mx-auto">
+                                <em class="text-white">JulieEvent.co</em>
+
+                                <h2 class="text-white mb-3">Julie Event National</h2>
+
+                                <p class="text-white" style="font-size: 16px;">.🎉 <b>JULIE EVENT</b> – L’Art de Sublimer Vos Moments Uniques!
+
+                                    Chez JULIE EVENT, nous transformons vos événements en souvenirs inoubliables grâce à une décoration élégante et raffinée. Spécialisés dans la vente de produits de décoration pour mariages, anniversaires, naissances, fêtes des mères et bien plus encore, nous vous offrons une sélection exclusive pour chaque occasion spéciale.
+                                    
+                                   </p>
+
+                                <p class="text-white" style="font-size: 16px;"> ✨ <b>Nos services</b> :<br/>
+                                    ✔️ Décorations sur mesure adaptées à votre thème<br/>
+                                    ✔️ Produits de qualité pour embellir vos festivités<br/>
+                                    ✔️ Nouveautés et tendances à découvrir dans notre section Avenir<br/>
+                                    
+                                    Que ce soit pour un événement intime ou une grande célébration, JULIE EVENT est votre partenaire idéal pour une ambiance magique et mémorable.<br/>
+                                    
+                                    📍 Contactez-nous dès aujourd’hui et faites de vos rêves une réalité ! <br>
+
+                                <a href="{% url 'gallery_page' %}" class="smoothscroll btn custom-btn custom-border-btn mt-3 mb-4">Cliquez pour voir nos Services</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+
+
+                <footer class="site-footer" style="background-color: rgb(52, 41, 41);">
+                    <div class="container">
+                        <div class="row">
+
+                            <div class="col-lg-4 col-12 me-auto">
+                                <em class="text-white d-block mb-4">Ou Nous Trouver?</em>
+
+                                <strong class="text-white">
+                                    
+                                    Bangante-Nobless Voyage, face Congelcam
+                                </strong>
+
+                                
+                            </div>
+
+                            <div class="col-lg-3 col-12 mt-4 mb-3 mt-lg-0 mb-lg-0">
+                                <em class="text-white d-block mb-4">Contact</em>
+
+                                <p class="d-flex mb-1">
+                                    <strong class="me-2">Phone:</strong>
+                                    <a href="tel: 305-240-9671" class="site-footer-link">
+                                        (+237) 695170195
+                                    </a>
+                                </p>
+
+                                <p class="d-flex">
+                                    <strong class="me-2">Whatsapp:</strong>
+
+                                    <a href="mailto:info@yourgmail.com" class="site-footer-link">
+                                       (+237) 677629606
+                                    </a>
+                                </p>
+
+                                <p class="d-flex">
+                                    <strong class="me-2">Email:</strong>
+
+                                    <a href="mailto:info@yourgmail.com" class="site-footer-link">
+                                        julievent@gmail.com
+                                    </a>
+                                </p>
+                            </div>
+
+
+                            <div class="col-lg-5 col-12">
+                                <em class="text-white d-block mb-4">Jours d'Ouverture.</em>
+
+                                <ul class="opening-hours-list">
+                                    <li class="d-flex">
+                                        Lundi aux Samedis
+                                        <span class="underline"></span>
+
+                                        <strong>De 7h30 a 21h00</strong>
+                                    </li>
+
+                                    <li class="d-flex">
+                                        Dimanche
+                                        <span class="underline"></span>
+
+                                        <strong>8h00 A 14h00</strong>
+                                    </li>
+
+                                   
+                                </ul>
+                            </div>
+
+                            <div class="col-lg-8 col-12 mt-4">
+                                <p class="copyright-text mb-0">Copyright © Julievent bgte 2048 
+                                    </p>
+                            </div>
+                    </div>
+                </footer>
+            </main>
+
+        <!-- JAVASCRIPT FILES -->
+        <!-- <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.sticky.js"></script>
+        <script src="js/click-scroll.js"></script>
+        <script src="js/vegas.min.js"></script>
+        <script src="js/custom.js"></script> -->
+
+    </body>
+</html>
