@@ -15,6 +15,14 @@ from pathlib import Path
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
+# cloudinary imports
+import cloudinary
+import  cloudinary.uploader
+import cloudinary.api
+
+
+
+
 import os
 import dj_database_url
 import environ
@@ -52,6 +60,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'redone',
+    'cloudinary',
+    'cloudinary_storage',
+
 ]
 
 MIDDLEWARE = [
@@ -155,3 +166,13 @@ STATICFILES_DIRS = [
 
 MEDIA_ROOT = BASE_DIR / 'static/images'
 STATIC_ROOT = BASE_DIR / 'staticfiles'
+
+
+# integration of cloudinary 
+cloudinary.confi(
+  
+  cloud_name = "ddqqqw9k0",
+  api_key = "939324157129846",
+  api_secret = "185JMabJw2Duz2bhsJaeXPHVOSs",
+
+  )

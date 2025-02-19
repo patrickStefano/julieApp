@@ -1,4 +1,5 @@
 from django.db import models
+from cloudinary.models import CloudinaryField
 
 class Categories(models.Model):
   name = models.CharField(max_length=100, null=False, blank=False)
@@ -8,8 +9,11 @@ class Categories(models.Model):
   
 class Photo(models.Model):
   categories = models.ForeignKey(Categories, on_delete=models.SET_NULL, null=True, blank=True) # this is to set the relationship
-  image = models.ImageField(null=False, blank=False)
+  image = CloudinaryField('image')
   desciption = models.TextField()
   def __strr__(self):
     return self.desciption
+  
+
+
 
